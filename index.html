@@ -5,9 +5,96 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Penguin</title>
      <script src="https://cdn.tailwindcss.com"></script>
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
 </head>
-<body>
-    <h1 class=""></h1>
+<style>
+    .font-bebas{
+    font-family: 'Bebas Neue', sans-serif;
+    }
+    .font-roboto{
+     font-family: 'Roboto', sans-serif;
+    }
+</style>
+<body> 
+    <div class="bg-[#FFFBF0]">
+        <header class="md:w-4/5 w-11/12 m-auto pt-10 ">
+            <nav class="flex flex-col md:flex-row w-full">
+                <div class=md:w-1/2 w-full"><img class="h-2/4" src="icons/logo.png" alt=""></div>
+                <div class="flex  list-none md:w-1/2  w-full justify-around font-roboto  pt-2 pb-2">
+                    <li>Home</li>
+                    <li>Product</li>
+                    <li>About us</li>
+                    <li>Contact us</li>
+                </div>
+            </nav>
+            
+        <div class="w-full flex flex-col md:flex-row items-center">
+            <div class="md:w-1/2 w-full">
+                <h1 class="font-bebas md:text-7xl text-6xl p-2 "><span class="text-[#FABE4C]">BE THE PENGUINS </span><br><span class="text-[#363958]">OF WINTER</span></h1>
+                <h3 class="p-2 font-roboto">Lorem ipsum dolor sit amet consectetur <br> adipisicing elit. Ab adipisci .</h3>
+                <button class="text-white justify-evenly p-2 items-center rounded-xl
+                 font-roboto flex bg-gradient-to-r from-[#A4BC46] to-[#85A019]"><img class="w-1/5" src="icons/shopping-cart 1.png" alt=""> BUY NOW</button>
+            </div>
+            <div class="md:w-1/2 w-full">
+                <img src="images/model.png" alt="">
+            </div>
+        </div>
+    </header>
+    </div>
+  <main>
+    <h3 class="text-4xl md:text-start text-center text-[#363958] font-bebas py-8 pl-3">WOMAN JACKET</h3>
+   <div class="grid md:grid-cols-3 grid-cols-1 w-4/5 m-auto gap-8">
+    <div class="w-full m-auto p-5 rounded-3xl bg-white-500 shadow-lg shadow-cyan-500/50">
+        <img class="bg-[#F1F1F1] rounded-3xl p-4 pb-9" src="images/jacket-1.png" alt="">
+        <h4 class="text-[#363958] font-roboto text-2xl font-bold py-4 ">Yellow Coat Jacket</h4>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Magnam, distinctio.</p>
+        <span class="pt-4 flex justify-between"><p class="text-[#FABE4C] text-4xl text-bold"> $234</p> <button class="text-white justify-evenly p-2 items-center rounded-xl
+         font-roboto flex bg-gradient-to-r from-[#A4BC46] to-[#85A019]"><img class="w-1/5" src="icons/shopping-cart 1.png" alt=""> BUY NOW</button></span>
+     </div>
+     <div class="w-full m-auto p-5 rounded-3xl bg-white-500 shadow-lg shadow-cyan-500/50">
+        <img class="bg-[#F1F1F1] rounded-3xl p-4 pb-9" src="images/jacket-2.png" alt="">
+        <h4  class="text-[#363958] font-roboto py-4 text-2xl font-bold">Ladies Jacket</h4>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Magnam, distinctio.</p>
+        <span class="pt-4 flex justify-between"><p class="text-[#FABE4C] text-4xl text-bold">$234</p> <button class="text-white justify-evenly p-2 items-center rounded-xl
+         font-roboto flex bg-gradient-to-r from-[#A4BC46] to-[#85A019]"><img class="w-1/5" src="icons/shopping-cart 1.png" alt=""> BUY NOW</button></span>
+     </div>
+     <div class="w-full m-auto p-5 rounded-3xl bg-white-500 shadow-lg shadow-cyan-500/50">
+        <img class="bg-[#F1F1F1] rounded-3xl p-4 pb-9" src="images/jacket-3.png" alt="">
+        <h4  class="text-[#363958] py-4 font-roboto text-2xl font-bold">Woman Leather Jacket</h4>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Magnam, distinctio.</p>
+        <span class="pt-4 flex justify-between"><p class="text-[#FABE4C] text-4xl text-bold">$234</p> <button class="text-white justify-evenly p-2 items-center rounded-xl
+         font-roboto flex bg-gradient-to-r from-[#A4BC46] to-[#85A019]"><img class="w-1/5" src="icons/shopping-cart 1.png" alt=""> BUY NOW</button></span>
+     </div>
+   </div>
+   <h3 class="text-4xl text-[#363958] font-bebas md:text-start text-center py-8 pl-3">MAN JACKET</h3>
+   <div class="grid md:grid-cols-3 grid-cols-1 w-4/5 m-auto gap-8">
+    <div class="w-full m-auto p-5 rounded-3xl bg-white-500 shadow-lg shadow-cyan-500/50">
+        <img class="bg-[#F1F1F1] rounded-3xl p-4 pb-9" src="images/jacket-4.png" alt="">
+        <h4 class="text-[#363958] font-roboto text-2xl font-bold py-4 ">Snowboard jacket mens</h4>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Magnam, distinctio.</p>
+        <span class="pt-4 flex justify-between"><p class="text-[#FABE4C] text-4xl text-bold"> $234</p> <button class="text-white justify-evenly p-2 items-center rounded-xl
+         font-roboto flex bg-gradient-to-r from-[#A4BC46] to-[#85A019]"><img class="w-1/5" src="icons/shopping-cart 1.png" alt=""> BUY NOW</button></span>
+     </div>
+     <div class="w-full m-auto p-5 rounded-3xl bg-white-500 shadow-lg shadow-cyan-500/50">
+        <img class="bg-[#F1F1F1] rounded-3xl p-4 pb-9" src="images/jacket-5.png" alt="">
+        <h4  class="text-[#363958] font-roboto py-4 text-2xl font-bold">Man Leather Jackets</h4>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Magnam, distinctio.</p>
+        <span class="pt-4 flex justify-between"><p class="text-[#FABE4C] text-4xl text-bold">$234</p> <button class="text-white justify-evenly p-2 items-center rounded-xl
+         font-roboto flex bg-gradient-to-r from-[#A4BC46] to-[#85A019]"><img class="w-1/5" src="icons/shopping-cart 1.png" alt=""> BUY NOW</button></span>
+     </div>
+     <div class="w-full m-auto p-5 rounded-3xl bg-white-500 shadow-lg shadow-cyan-500/50">
+        <img class="bg-[#F1F1F1] rounded-3xl p-4 pb-9" src="images/jacket-6.png" alt="">
+        <h4  class="text-[#363958] py-4 font-roboto text-2xl font-bold">Man Casual Jackets</h4>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Magnam, distinctio.</p>
+        <span class="pt-4 flex justify-between"><p class="text-[#FABE4C] text-4xl text-bold">$234</p> <button class="text-white justify-evenly p-2 items-center rounded-xl
+         font-roboto flex bg-gradient-to-r from-[#A4BC46] to-[#85A019]"><img class="w-1/5" src="icons/shopping-cart 1.png" alt=""> BUY NOW</button></span>
+     </div>
+   </div>
+  </main>
+
+   
     
 </body>
 </html>
